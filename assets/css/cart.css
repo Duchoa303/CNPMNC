@@ -1,0 +1,139 @@
+.cart {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.cart .title_cart h1 {
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 144px;
+}
+.cart .title_cart p {
+    font-size: 20px;
+    margin-left: 220px;
+}
+.cart .item_cart {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+    margin-top: 30px;
+    border-bottom: 1px dotted #acacac;
+    margin-left: 130px;
+}
+.cart .item_cart img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 34px;
+}
+.cart .item_cart .if_item .type {
+    margin: 10px 0;
+    color: #b1a8a8;
+}
+.cart .item_cart .if_item p {
+    color: #a80f23;
+}
+.cart .item_cart .price {
+    color: #a80f23;
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 70px;
+}
+.cart .item_cart .if_item {
+    margin: 18px 0;
+}
+.cart .item_cart .if_item h1 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: -30px;
+}
+.buttons_added {
+    display:inline-block;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    margin-left: 140px;
+}
+.is-form {
+    overflow:hidden;
+    position:relative;
+    background-color:#f9f9f9;
+    height: 40px;
+    width: 34px;
+    padding:0;
+    text-shadow:1px 1px 1px #fff;
+    border:1px solid #ddd;
+}
+.is-form.minus {
+    border-radius:4px 0 0 4px;
+}
+.is-form.plus {
+    border-radius:0 4px 4px 0;
+}
+.input_quantity {
+    background-color:#fff;
+    height:36px;
+    width: 44px;
+    text-align:center;
+    font-size:14px;
+    display:inline-block;
+    vertical-align:top;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-left:0;
+    border-right:0;
+    padding-left:12px;
+}
+.pay {
+    width: 272px;
+    position: absolute;
+    top:200px;
+    right: 170px;
+}
+.pay .item_pay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.pay .item_pay p {
+    font-size: 19px;
+}
+.pay .item_pay .price {
+    color: #a80f23;
+    margin-left: 60px;
+    font-weight: 600;
+    font-size: 28px;
+}
+.pay .items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.pay .item_pay .btn_pay {
+    width: 272px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.pay .item_pay .btn_pay1 {
+    background-color: #a80f23;
+    border: none ;
+    color: #fff;
+}
+.pay .item_pay .btn_pay2 {
+    background-color: #ffffff;
+    border: 1px solid #a80f23;
+    color: #a80f23;
+}
+.pay .item_pay .btn_pay1:hover {
+    background-color: #ffffff;
+    border: 1px solid #a80f23;
+    color: #a80f23;
+}
+.pay .item_pay .btn_pay2:hover {
+    background-color: #a80f23;
+    border: none ;
+    color: #fff;
+}

@@ -1,0 +1,178 @@
+.form_pay {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica Neue,sans-serif;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form_pay .form img {
+    margin: 50px 0 70px 0;
+    width: 330px;
+    position: relative;
+    left: 200px;
+}
+.item_form:hover {
+    border: 2px solid #f9502f;
+
+}
+.item_form {
+    width: 380px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid #cec9c8;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.form_pay .payment .table_payment .items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.table_payment {
+    border: 1px solid #cec9c8;
+}
+.momo {
+    border-bottom: 1px dotted #ccc9c8;
+}
+.online {
+    border-bottom: 1px dotted #ccc9c8;
+}
+.payment {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 450px;
+    position: relative;
+    bottom: 40px;  
+}
+.btn_click {
+    margin: 20px 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 12px;
+    border: 1px solid #cec9c8;
+    background-color: rgb(255, 255, 255);
+}
+.btn_click:hover {
+    border: 2px solid #46ec65;
+}
+.btn_click:focus {
+    border: 3px solid #46ec65;
+}
+.form_pay .payment h1 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.products_cart {
+    margin-top: 30px;
+    padding-left: 30px;
+    border: 1px dotted #ccc9c8;
+    background-color: #f6f1f0;
+    width: 500px;
+    height: 700px;
+    border-radius: 4px;
+}
+.products_cart h1 {
+    font-size: 22px;
+    font-weight: 600;
+    margin:20px 0;
+}
+.products_cart .items_cart img {
+    border-radius: 8px;
+}
+.quantity_prd {
+    position: relative;
+    bottom: 114px;
+    left: 88px;
+    width: 10px;
+    height: 18px;
+    font-size: 12px;
+    padding: 6px 6px 0px 8px;
+    color: #ffffff;
+    background-color: #ea571d;
+    border-radius: 20px;
+}
+.box_prd {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.items_cart .box_prd h1 {
+    margin-left: 20px;
+    font-size: 16px;
+}
+.voucher input {
+    margin-left: 30px;
+    width: 300px;
+    height: 40px;
+    border-radius: 4px;
+    border:1px solid #ccc9c8;
+    background-color: #ffffff;
+    font-size: 14px;
+}
+.voucher button {
+    margin-left: 8px;
+    width: 90px;
+    height: 44px ;
+    border-radius: 4px;
+    border:1px solid #ccc9c8;
+    font-size: 14px;
+    background-color: #ef3f3f;
+    color: #ffffff;
+}
+.overall {
+    font-size: 20px;
+    margin: 20px 0;
+    margin-left: 0px;
+    color: #707070;
+}
+.overall {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.priceall {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.btn_done {
+    width: 180px;
+    height: 44px;
+    font-size: 14px;
+}
+.done1 {
+    color: #a80f23;
+    background-color: #ffffff;
+    border:1px solid #a80f23;
+    border-radius: 4px;
+    margin-left: 26px;
+}
+.done2 {
+    color: #ffffff;
+    background-color: #a80f23;
+    border:1px solid #a80f23;
+    border-radius: 4px;
+    margin-left: 50px;
+    margin-top: 28px;
+}
+.done2:hover {
+    background-color: #ffffff;
+    border: 1px solid #a80f23;
+    color: #a80f23;
+}
+.done1:hover {
+    background-color: #a80f23;
+    border: none ;
+    color: #fff;
+}
